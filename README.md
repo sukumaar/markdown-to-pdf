@@ -1,4 +1,4 @@
-# md-to-pdf
+# markdown-to-pdf
 
 Bun + TypeScript CLI for Markdown to PDF. Uses PDFKit and browserless Mermaid rendering. PDF output streams to disk; Markdown parsing uses memory proportional to input size. Mermaid engine loads only when a diagram is present.
 
