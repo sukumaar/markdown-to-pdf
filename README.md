@@ -6,7 +6,7 @@ to input size. Mermaid engine loads only when a diagram is present.
 
 ## Install
 
-Requires Bun 1.3 or newer. Run these commands from `md-to-pdf/`:
+Requires Bun 1.3 or newer. Run these commands from `markdown-to-pdf/`:
 
 ```sh
 mkdir -p .tmp .bun-cache
@@ -29,7 +29,7 @@ bun run convert notes.md --page letter --font /path/to/font.ttf
 bun run convert --help
 ```
 
-Default output is `INPUT.pdf` in current working directory (`md-to-pdf/` for
+Default output is `INPUT.pdf` in current working directory (`markdown-to-pdf/` for
 commands above), even when input comes from another directory. `-o` accepts an
 explicit path. Existing files require `--force`. Output is written to a
 temporary file beside the destination, then committed after rendering succeeds.
