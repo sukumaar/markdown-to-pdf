@@ -1,0 +1,15 @@
+node_modules/
+.bun-cache/
+.tmp/
+dist/
+coverage/
+*.tsbuildinfo
+*.pdf
+.md-to-pdf-*.tmp
+*.log
+.env
+.env.*
+!.env.example
+.idea/
+.vscode/
+.DS_Store

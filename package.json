@@ -1,0 +1,30 @@
+{
+  "name": "md-to-pdf",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "engines": {
+    "bun": ">=1.3.0"
+  },
+  "bin": {
+    "md-to-pdf": "./src/cli.ts"
+  },
+  "scripts": {
+    "convert": "bun run src/cli.ts",
+    "typecheck": "tsc --noEmit",
+    "test": "bun test",
+    "check": "bun run typecheck && bun test"
+  },
+  "dependencies": {
+    "beautiful-mermaid": "^1.1.3",
+    "markdown-it": "^15.0.2",
+    "pdfkit": "^0.20.2",
+    "svg-to-pdfkit": "^0.1.8"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.4.2",
+    "@types/markdown-it": "^14.2.0",
+    "@types/pdfkit": "^0.17.6",
+    "typescript": "^5.9.3"
+  }
+}
